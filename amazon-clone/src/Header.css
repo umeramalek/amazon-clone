@@ -36,4 +36,27 @@
     height:22px !important;
     background-color: orange;
 }
+
+.header__nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+}
+
+.header__optionOne{
+    font-size: 10px;
+}
+
+.header_optionTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
   
+
