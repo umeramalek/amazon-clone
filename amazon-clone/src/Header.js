@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
-import SearchIcon from '@mui/icons-material/Search';
+// import SearchIcon from '@mui/icons-material/Search';
+// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
 
             <div className="header__search">
                 <input className="header__searchInput" type="text"/>
-                <SearchIcon className="header__searchIcon" />
+                {/* <SearchIcon className="header__searchIcon" /> */}
             </div>
 
             <div className="header__nav">
@@ -29,6 +30,12 @@ function Header() {
                 <span className="header__optionOne"> Your </span>
                 <span className="header__optionTwo"> Prime </span>
                 </div>
+
+                <div className="header__shoppingCart">
+                    <ShoppingCartIcon />
+                    <span className="header__optionTwo header__cartCount">0</span>
+                </div>
+
             </div>
 
         </div>
