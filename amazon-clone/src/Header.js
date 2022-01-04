@@ -7,7 +7,8 @@ function Header() {
             <img className= "header_logo"  src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
 
             <div className="header__search">
-                
+                <input className="header__input" type="text"></input>
+                {/* Logo */}
             </div>
         </div>
     )
