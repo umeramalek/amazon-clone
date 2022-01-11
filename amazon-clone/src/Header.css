@@ -40,7 +40,7 @@
 .header__nav{
     display:flex;
     justify-content: space-evenly;
-    margin-left: 900px;
+    margin-left: 850px;
 }
 
 .header__option{
@@ -60,4 +60,13 @@
     font-weight: 800;
 }
   
+.header__shoppingCart{
+    display:flex;
+    align-items: center;
+    color:white;
+}
 
+.header__cartCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
