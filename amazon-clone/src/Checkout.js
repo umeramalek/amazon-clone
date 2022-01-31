@@ -4,7 +4,26 @@ import './Checkout.css'
 function Checkout() {
     return (
         <div className="checkout">
-            <h1>Alright lets get started </h1>
+            <div className="checkout__left">
+                <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" alt=""/>
+
+                <div>
+                    <h2 className="checkout__title"> Your shopping Cart</h2>
+                    {/* Cart Item */}
+                    {/* Cart Item */}
+                    {/* Cart Item */}
+                    {/* Cart Item */}
+                </div>
+
+            
+            </div>
+
+
+
+            <div className="checkout__right">
+                {/* subtotal here */}
+            </div>
+
         </div>
     )
 }
