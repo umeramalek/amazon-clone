@@ -30,6 +30,8 @@ function Subtotal() {
             // dollar
             prefix={"$"}
             />
+
+            <button> Proceed to Checkout </button>
         </div>
     )
 }
