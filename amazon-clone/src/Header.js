@@ -8,7 +8,7 @@ import { useStateValue } from './StateProvider'
 
 function Header() {
 
-    const [{basket}, dispatch] = useStateValue();
+    const [{basket,user }, dispatch] = useStateValue();
 
     return (
         <div className = "header">
@@ -44,6 +44,7 @@ function Header() {
                     {/* <ShoppingCartIcon /> */}
                     <p>Cart</p>
                     <span className="header__optionTwo header__cartCount">{basket?.length}</span>
+                    {/* the question mark is optional chaining (if you dont have the correct value, it will handle the error without freakign out) */}
                 </div>
             </Link>
 
