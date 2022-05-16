@@ -20,6 +20,7 @@ const reducer = (state, action) => {
             };
 
         case 'REMOVE_FROM_BASKET':
+            // remove the item by index using splice
           const index = state.basket.findIndex(
               (basketItem) => basketItem.id === action.id
           );
